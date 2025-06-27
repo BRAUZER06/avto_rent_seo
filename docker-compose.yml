@@ -9,8 +9,8 @@ services:
     ports:
       - '5175:5175'
     networks:
-      - medical_consultations_default
+      - avto_rent_seo_default
 
 networks:
-  medical_consultations_default:
+  avto_rent_seo_default:
     driver: bridge
