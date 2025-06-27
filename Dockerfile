@@ -10,4 +10,7 @@ COPY . .
 
 EXPOSE 5175
 
-CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0", "--port", "5175"]
+ENV HOSTNAME=0.0.0.0
+ENV PORT=5175
+
+CMD ["npm", "run", "dev"]
