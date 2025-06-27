@@ -1,0 +1,16 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - '5175:5175'
+    networks:
+      - medical_consultations_default
+
+networks:
+  medical_consultations_default:
+    driver: bridge
