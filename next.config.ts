@@ -2,15 +2,15 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ['rentavtokavkaz.ru', 'rentavtokavkaz.ru', 'localhost'],
+    domains: ['ingrentcar.ru', 'www.ingrentcar.ru', 'localhost'],
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'rentavtokavkaz.ru',
+        hostname: 'ingrentcar.ru',
       },
       {
         protocol: 'https',
-        hostname: 'www.rentavtokavkaz.ru',
+        hostname: 'www.ingrentcar.ru',
       },
       {
         protocol: 'http',
