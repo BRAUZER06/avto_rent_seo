@@ -7,10 +7,10 @@ services:
       - .:/app
       - /app/node_modules
     ports:
-      - '5175:5175'
+      - '5176:5176'
     environment:
       - HOSTNAME=0.0.0.0
-      - PORT=5175
+      - PORT=5176
     networks:
       - avto_rent_seo_default
 
